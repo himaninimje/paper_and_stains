@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="mailto:paperandstains@gmail.com">
           <FontAwesomeIcon
             icon={faEnvelope}
-            className="ml-4 hover:text-red-500"
+            className="hover:text-red-500"
             size="2x"
           />
         </a>

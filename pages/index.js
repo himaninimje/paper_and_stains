@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import PaintingBox from './common/PaintingsBox'
 
 export default function Home() {
   return (
@@ -7,8 +8,8 @@ export default function Home() {
       <Head>
         <title>Paper and Stains</title>
       </Head>
-      <div >
-        Home
+      <div className="p-10">
+        <PaintingBox />
       </div>
     </>
   )

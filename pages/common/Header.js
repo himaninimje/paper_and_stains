@@ -12,7 +12,7 @@ const Header = () => {
           <div className="flex ml-1 px-1 hover:text-red-500 text-white text-6xl">
             <Link href="/" >
               <a >
-                <Image src="/Logo.png" width={90} height={120} alt="Paper and Stains" />
+                <Image src="/Logo.png" width={120} height={120} alt="Paper and Stains" />
               </a>
             </Link>
           </div>
